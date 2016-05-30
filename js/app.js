@@ -154,4 +154,11 @@ $(".lang_m-select__input").change(function(){
     console.log('test');
    $(this).parents('form').submit();
 });
+
+});
+$(document).ready(function() {
+	$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
 });

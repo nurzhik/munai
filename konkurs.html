@@ -9,8 +9,9 @@
 <link href="css/reset.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="css/slide.css">
-<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+
 <script src="js/app.js" type="text/javascript"></script>
 <!--[if lte IE 9]>
 <link rel="stylesheet" type="text/css" media="Screen" href="css/main-ie6.css">
@@ -140,13 +141,15 @@
 						<a href="#modal1"class="button open_modal">УЧАСТВОВАТЬ В КОНКУРСЕ</a>
 					</div>
 					<ul class="concurs_list">
-						<li>
-							<div class="concurs_img"><img src="img/big_konkurs.jpg" alt=""/></div>
-							<div class="title">Балкыбек Шерхан Бактыбекулы</div>
-							<div class="job"><strong>Место работы:</strong> КМГ</div>
-							<p><strong>Описание: </strong>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p>
-							<div class="golosovanie">Голосование: <a href=""></a>817</div>
-						</li>
+						<div id="wrapper">
+							<li>
+								<div class="concurs_img"><a href="img/big_konkurs.jpg" class="fancybox" rel="gallery"><img src="img/big_konkurs.jpg" alt=""/></a></div>
+								<div class="title">Балкыбек Шерхан Бактыбекулы</div>
+								<div class="job"><strong>Место работы:</strong> КМГ</div>
+								<p><strong>Описание: </strong>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p>
+								<div class="golosovanie">Голосование: <a href=""></a>817</div>
+							</li>
+						</div>
 					</ul>
 				</div>
 				<aside class="side_bar">
